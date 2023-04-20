@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent { label  'chef-u16desk'} 
   stages {
     stage('Hello') {
       steps {
